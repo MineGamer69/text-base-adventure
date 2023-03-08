@@ -25,6 +25,13 @@ public class TextBasedAdventure {
         }
     }
 
+    public static void endCut(){
+        System.out.println("HAHAHAHAHAHAHAHHAHAHAHAHAHAHAHHAHAHA");
+        System.out.println("I knew you could'nt escape Alex's Class..... Its ... Not Possible.......");
+        System.out.println("Wait a minute... Whatssss . . . Happening... You are being teleported!! to TH130... Its a LOOP SEQUENCE!!!!");
+        start();
+    }
+
 
     public static void main(String[] args) {
         new TextBasedAdventure().execute();
