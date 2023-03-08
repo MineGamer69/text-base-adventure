@@ -12,13 +12,16 @@ public class TextBasedAdventure {
     }
 
     public static void start() {
-        System.out.println("You find yourself in a large room with zoom carts on EVERY SINGLE WALL!! What would you like to do?\n1. Go left \n2. Go right");
+        System.out.println("You find yourself in a large room with zoom carts on EVERY SINGLE WALL!! What would you like to do?\n1. Go left \n2. Go right \n3. Go up the stairs in front of you");
         int input = keyboardInput.nextInt();
         if (input == 1) {
             moveLeft.goLeft();
         }
         else if (input == 2) {
             moveRight.goRight();
+        }
+        else if (input == 3) {
+            goUp.moveUp();
         }
     }
 
