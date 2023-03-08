@@ -5,7 +5,7 @@ public class moveRight {
             TextBasedAdventure.hasSword = true;
         }
         else {
-            System.out.println("There's nothing here...");
+            TreasureChest.chestFound();
             TextBasedAdventure.endCut();
         }
         TextBasedAdventure.start();
