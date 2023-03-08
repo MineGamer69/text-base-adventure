@@ -1,6 +1,6 @@
 import java.util.Scanner;
 public class goUp {
-    public static void main(String[] args){
+    public static void moveUp(){
         Scanner scan = new Scanner(System.in);
         System.out.println("You go up the stairs and are presented with three options... Do you: \n 1: Go down the slide to your left \n 2: Open the doors in front of you \n 3: Climb the ladder to your right");
         int option = scan.nextInt();
