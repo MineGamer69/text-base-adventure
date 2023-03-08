@@ -14,7 +14,7 @@ public class TreasureChest
             System.out.println("You found a crown!");
             TextBasedAdventure.start();
         }
-        else if(input == 2)
+        else
         {
             System.out.println("You walked away...");
             TextBasedAdventure.start();
