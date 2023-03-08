@@ -2,9 +2,9 @@ import java.util.Scanner;
 
 public class TreasureChest 
 {
-    private Scanner scan = new Scanner(System.in);
+    private static Scanner scan = new Scanner(System.in);
 
-    public void TreasureChestFound()
+    public static void chestFound()
     {
         System.out.println("You found a treasure chest! What do you want to do?\n1. Open Chest\n2. Leave Chest");
         int input = scan.nextInt();
