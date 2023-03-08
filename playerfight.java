@@ -6,6 +6,7 @@ public class playerfight {
         } else {
             System.out.println("You get stomped by the giant and red stuff goes everywhere.");
             youDied.Died();
+            TextBasedAdventure.endCut();
         }
     }
     
