@@ -6,6 +6,7 @@ public class moveRight {
         }
         else {
             System.out.println("There's nothing here...");
+            TextBasedAdventure.endCut();
         }
         TextBasedAdventure.start();
     }
