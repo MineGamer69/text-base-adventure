@@ -6,6 +6,7 @@ public class moveRight {
         }
         else {
             TreasureChest.chestFound();
+            TextBasedAdventure.endCut();
         }
         TextBasedAdventure.start();
     }
