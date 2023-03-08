@@ -12,6 +12,7 @@ public class TreasureChest
         if(input == 1)
         {
             System.out.println("You found a crown!");
+            System.out.println("You put on the crown!");
         }
         else
         {
